@@ -1,8 +1,22 @@
-# React + Vite
+# News on Internet App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+The "News on Internet" app is a React-based web application designed to fetch and display news articles based on user input. Users can search for news articles using keywords, and the app will provide a list of relevant articles along with their details.
 
-Currently, two official plugins are available:
+## Features
+- **Search Functionality**: Users can enter search terms to find news articles related to their interests.
+- **Article Display**: Retrieved articles are displayed in a responsive and user-friendly manner.
+- **No Results Handling**: The app gracefully handles scenarios where no search results are found.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+- **React**: The front-end framework for building user interfaces.
+- **CSS (Tailwind CSS)**: Used for styling and responsive design.
+- **useState and useEffect Hooks**: Leveraged to manage component state and perform side effects.
+
+## File Structure
+- **App.jsx**: The main component that orchestrates the application's functionality.
+- **App.css**: The stylesheet for styling the App component.
+- **hooks/news.js**: Contains the logic for fetching news articles based on user input.
+- **components/Input.jsx**: A component for taking user input and triggering search actions.
+- **components/ArticleCard.jsx**: A component responsible for rendering individual news articles.
+
